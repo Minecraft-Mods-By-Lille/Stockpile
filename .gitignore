@@ -1,0 +1,77 @@
+# .gitignore for NeoForge Minecraft Mod Template
+# Author: Lille
+# Version: 1.0
+# 
+# This is a TEMPLATE - when you use it for a real mod project,
+# replace this file with .gitignore.example for full development ignoring
+
+# NOTE: This template's .gitignore is minimal because all template files
+# need to be committed to the repository.
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ============================================
+# Editor & IDE Files (User-Specific)
+# ============================================
+
+# VS Code - user-specific settings
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.eclipse/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# ============================================
+# Gradle Build Files (Machine-Specific)
+# ============================================
+
+# Gradle cache and build outputs - regenerated on each machine
+.gradle/
+build/
+out/
+bin/
+
+# Minecraft runtime directory (created when testing)
+run/
+
+# Generated resources (should be copied to src/main/resources when ready)
+src/generated/
+
+# ============================================
+# Test Folders
+# ============================================
+
+# Don't commit accidentally created test mods
+/test-mod/
+/example-mod/
+/testing/
