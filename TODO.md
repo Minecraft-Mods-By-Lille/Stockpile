@@ -46,7 +46,7 @@
 ## 🚧 In Progress Tasks
 
 ### Textures & Assets
-- [ ] **REDO ALL TEXTURE WORK** (user working on this)
+- [ ] **REDO ALL TEXTURE WORK**
   - Lost 15 hours of work due to editing in build/ folder
   - User implementing backup strategy:
     - Keep work files in separate backup location
