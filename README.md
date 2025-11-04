@@ -32,7 +32,7 @@ A Minecraft 1.21.1 NeoForge mod inspired by Silent Gear. Adds a complete tier pr
 | **1** | Bone | Wood+ | High damage, cheap repairs |
 | **2** | Hardened Clay, Crystal Glass | Stone | Balanced vs. Fast but fragile |
 | **3** | Copper, Obsidian Alloy | Iron | Balanced vs. High durability |
-| **4** | Adamantine | Diamond+ | Diamond + Iron fusion |
+| **4** | Adamantine | Diamond+ | Emerald + Diamond fusion |
 | **5** | Voidsteel, Starlight Steel | Netherite+ | Balanced vs. Ultra-fast |
 | **6** | Dragonsteel | Ultimate | Dragon's power |
 
