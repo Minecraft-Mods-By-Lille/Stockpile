@@ -1,12 +1,48 @@
-# .gitignore for NeoForge Minecraft Mod Template
+# .gitignore for Stockpile Mod
 # Author: Lille
-# Version: 1.0
 # 
-# This is a TEMPLATE - when you use it for a real mod project,
-# replace this file with .gitignore.example for full development ignoring
+# This file excludes build artifacts, IDE files, and development files
+# from version control.
 
-# NOTE: This template's .gitignore is minimal because all template files
-# need to be committed to the repository.
+# ============================================
+# Gradle Build Files
+# ============================================
+
+# Gradle cache and build outputs - regenerated on each machine
+.gradle/
+build/
+out/
+bin/
+
+# ============================================
+# Minecraft Development
+# ============================================
+
+# Minecraft runtime directory (created when testing)
+run/
+
+# Generated resources (copy to src/main/resources when ready)
+src/generated/
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+
+# Eclipse
+.classpath
+.project
+.settings/
+.eclipse/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (keep launch.json but ignore other configs)
+.vscode/*
+!.vscode/launch.json
 
 # ============================================
 # Operating System Files
@@ -28,50 +64,42 @@ $RECYCLE.BIN/
 .directory
 
 # ============================================
-# Editor & IDE Files (User-Specific)
+# Temporary & Backup Files
 # ============================================
 
-# VS Code - user-specific settings
-.vscode/
+# Logs
+*.log
 
-# IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-
-# Eclipse
-.classpath
-.project
-.settings/
-.eclipse/
-
-# Backup files
+# Temporary files
+*.tmp
 *.bak
 *.swp
 *.swo
 *~
 
 # ============================================
-# Gradle Build Files (Machine-Specific)
+# Compiled & Package Files
 # ============================================
 
-# Gradle cache and build outputs - regenerated on each machine
-.gradle/
-build/
-out/
-bin/
+# Compiled class files
+*.class
 
-# Minecraft runtime directory (created when testing)
-run/
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# Generated resources (should be copied to src/main/resources when ready)
-src/generated/
+# Don't ignore gradle wrapper jar (needed for builds)
+!gradle/wrapper/gradle-wrapper.jar
 
 # ============================================
-# Test Folders
+# Development Notes (Optional)
 # ============================================
 
-# Don't commit accidentally created test mods
-/test-mod/
-/example-mod/
-/testing/
+# Personal notes (remove these lines if you want to commit them)
+NOTES.md
+PRIVATE_TODO.md

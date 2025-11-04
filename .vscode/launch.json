@@ -1,0 +1,89 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - stockpile",
+        "order": 0
+      },
+      "projectName": "stockpile",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dstockpile%%C:\\Modding Work\\Minecraft\\Stockpile\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - stockpile",
+        "order": 1
+      },
+      "projectName": "stockpile",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dstockpile%%C:\\Modding Work\\Minecraft\\Stockpile\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - stockpile",
+        "order": 2
+      },
+      "projectName": "stockpile",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dstockpile%%C:\\Modding Work\\Minecraft\\Stockpile\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - stockpile",
+        "order": 3
+      },
+      "projectName": "stockpile",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Stockpile\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dstockpile%%C:\\Modding Work\\Minecraft\\Stockpile\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
