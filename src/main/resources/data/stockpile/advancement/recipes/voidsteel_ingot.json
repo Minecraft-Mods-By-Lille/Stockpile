@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "stockpile:voidsteel_ingot"
+    },
+    "title": {
+      "translate": "advancement.stockpile.voidsteel_ingot.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.voidsteel_ingot.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_voidsteel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:voidsteel_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

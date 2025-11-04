@@ -1,0 +1,30 @@
+﻿{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "stockpile:crystal_glass_fishing_rod"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_crystal_glass_fishing_rod.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_crystal_glass_fishing_rod.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_crystal_glass_fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:crystal_glass_fishing_rod"
+          }
+        ]
+      }
+    }
+  }
+}

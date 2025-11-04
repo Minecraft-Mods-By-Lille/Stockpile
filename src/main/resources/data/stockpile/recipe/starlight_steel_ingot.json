@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SNS",
+    "NAN",
+    "SNS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "A": {
+      "item": "stockpile:adamantine_ingot"
+    }
+  },
+  "result": {
+    "item": "stockpile:starlight_steel_ingot",
+    "count": 1
+  }
+}

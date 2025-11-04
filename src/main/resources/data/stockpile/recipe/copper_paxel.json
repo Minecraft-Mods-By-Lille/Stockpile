@@ -1,0 +1,28 @@
+{
+    "key":  {
+                "S":  {
+                          "item":  "stockpile:copper_shovel"
+                      },
+                "P":  {
+                          "item":  "stockpile:copper_pickaxe"
+                      },
+                "A":  {
+                          "item":  "stockpile:copper_axe"
+                      },
+                "R":  {
+                          "tag":  "c:rods/wooden"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "APS",
+                    " R ",
+                    " R "
+                ],
+    "result":  {
+                   "id":  "stockpile:copper_paxel",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}
+

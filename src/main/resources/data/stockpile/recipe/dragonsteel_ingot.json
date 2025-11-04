@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    "SVS",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:dragon_breath"
+    },
+    "S": {
+      "item": "stockpile:starlight_steel_ingot"
+    },
+    "V": {
+      "item": "stockpile:voidsteel_ingot"
+    }
+  },
+  "result": {
+    "item": "stockpile:dragonsteel_ingot",
+    "count": 1
+  }
+}

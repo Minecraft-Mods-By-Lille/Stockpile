@@ -1,0 +1,27 @@
+{
+    "key":  {
+                "S":  {
+                          "item":  "stockpile:dragonsteel_shovel"
+                      },
+                "P":  {
+                          "item":  "stockpile:dragonsteel_pickaxe"
+                      },
+                "A":  {
+                          "item":  "stockpile:dragonsteel_axe"
+                      },
+                "R":  {
+                          "tag":  "c:rods/wooden"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "APS",
+                    " R ",
+                    " R "
+                ],
+    "result":  {
+                   "id":  "stockpile:dragonsteel_paxel",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

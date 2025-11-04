@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/obsidian_alloy_fishing_rod"
+                 },
+    "parent":  "minecraft:item/handheld_rod"
+}

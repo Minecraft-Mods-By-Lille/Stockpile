@@ -3,26 +3,26 @@ loaderVersion="[4,)"
 license="MIT"
 
 [[mods]]
-modId="${mod_id}"
-version="${mod_version}"
-displayName="${mod_name}"
-displayURL="https://example.com/${mod_id}"
-logoFile="${mod_id}.png"
-authors="${mod_authors}"
+modId="stockpile"
+version="1.0.0"
+displayName="Stockpile"
+displayURL="https://example.com/stockpile"
+logoFile="stockpile.png"
+author="YourNameHere"
 description='''
-${mod_description}
+Stockpile is a Minecraft 1.21.1 NeoForge mod inspired by Silent Gear. It adds weapons and armor for all tiers using only base game materials. Each equipment type (warrior, mage, archer) is crafted from 3 components, supporting a variety of playstyles.
 '''
 
-[[dependencies.${mod_id}]]
+[[dependencies.stockpile]]
     modId="minecraft"
     mandatory=true
-    versionRange="${minecraft_version_range}"
+    versionRange="[1.21.1,1.22)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies.stockpile]]
     modId="neoforge"
     mandatory=true
-    versionRange="${neoforge_version_range}"
+    versionRange="[21,)"
     ordering="NONE"
     side="BOTH"

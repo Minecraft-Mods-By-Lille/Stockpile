@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "stockpile:bone_shovel"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_bone_shovel.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_bone_shovel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_bone_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:bone_shovel"
+          }
+        ]
+      }
+    }
+  }
+}

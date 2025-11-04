@@ -1,0 +1,30 @@
+﻿{
+  "parent": "stockpile:recipes/adamantine_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:adamantine_fishing_rod"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_adamantine_fishing_rod.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_adamantine_fishing_rod.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_adamantine_fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:adamantine_fishing_rod"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "stockpile:starlight_steel_ingot"
+                      },
+                "/":  {
+                          "item":  "minecraft:stick"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "#",
+                    "/",
+                    "/"
+                ],
+    "result":  {
+                   "id":  "stockpile:starlight_steel_shovel",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

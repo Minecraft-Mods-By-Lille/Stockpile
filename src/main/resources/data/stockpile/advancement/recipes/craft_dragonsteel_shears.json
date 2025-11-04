@@ -1,0 +1,30 @@
+﻿{
+  "parent": "stockpile:recipes/dragonsteel_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:dragonsteel_shears"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_dragonsteel_shears.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_dragonsteel_shears.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dragonsteel_shears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:dragonsteel_shears"
+          }
+        ]
+      }
+    }
+  }
+}

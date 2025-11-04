@@ -1,0 +1,30 @@
+{
+  "parent": "stockpile:recipes/dragonsteel_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:dragonsteel_paxel"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_dragonsteel_paxel.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_dragonsteel_paxel.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dragonsteel_paxel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:dragonsteel_paxel"
+          }
+        ]
+      }
+    }
+  }
+}

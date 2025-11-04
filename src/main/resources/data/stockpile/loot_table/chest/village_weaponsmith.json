@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "village_weaponsmith_stockpile",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "stockpile:toy_sword",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "stockpile:toy_spear",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "stockpile:bone_sword",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "stockpile:bone_spear",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

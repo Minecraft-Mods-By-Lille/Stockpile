@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/bone_pickaxe"
+                 },
+    "parent":  "minecraft:item/handheld"
+}

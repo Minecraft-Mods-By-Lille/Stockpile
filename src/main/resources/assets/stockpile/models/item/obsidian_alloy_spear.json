@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/obsidian_alloy_spear"
+                 },
+    "parent":  "minecraft:item/handheld"
+}

@@ -1,0 +1,30 @@
+﻿{
+  "parent": "stockpile:recipes/adamantine_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:adamantine_shovel"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_adamantine_shovel.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_adamantine_shovel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_adamantine_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:adamantine_shovel"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "minecraft:clay_ball"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    " #",
+                    "# "
+                ],
+    "result":  {
+                   "id":  "stockpile:hardened_clay_shears",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

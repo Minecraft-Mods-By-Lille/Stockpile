@@ -1,0 +1,27 @@
+{
+    "key":  {
+                "S":  {
+                          "item":  "stockpile:hardened_clay_shovel"
+                      },
+                "P":  {
+                          "item":  "stockpile:hardened_clay_pickaxe"
+                      },
+                "A":  {
+                          "item":  "stockpile:hardened_clay_axe"
+                      },
+                "R":  {
+                          "tag":  "c:rods/wooden"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "APS",
+                    " R ",
+                    " R "
+                ],
+    "result":  {
+                   "id":  "stockpile:hardened_clay_paxel",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

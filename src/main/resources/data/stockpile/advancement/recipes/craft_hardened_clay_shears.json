@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "stockpile:hardened_clay_shears"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_hardened_clay_shears.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_hardened_clay_shears.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_hardened_clay_shears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:hardened_clay_shears"
+          }
+        ]
+      }
+    }
+  }
+}

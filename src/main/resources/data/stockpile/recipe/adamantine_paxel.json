@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "APS",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "A": {
+      "item": "stockpile:adamantine_axe"
+    },
+    "P": {
+      "item": "stockpile:adamantine_pickaxe"
+    },
+    "S": {
+      "item": "stockpile:adamantine_shovel"
+    },
+    "R": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "stockpile:adamantine_paxel",
+    "count": 1
+  }
+}

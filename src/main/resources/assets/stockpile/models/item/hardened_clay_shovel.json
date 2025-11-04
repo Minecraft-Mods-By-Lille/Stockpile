@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/hardened_clay_shovel"
+                 },
+    "parent":  "minecraft:item/handheld"
+}

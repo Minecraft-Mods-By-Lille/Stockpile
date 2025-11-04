@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/adamantine_shears"
+                 },
+    "parent":  "minecraft:item/handheld"
+}

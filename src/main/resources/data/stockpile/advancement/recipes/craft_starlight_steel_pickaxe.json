@@ -1,0 +1,30 @@
+﻿{
+  "parent": "stockpile:recipes/starlight_steel_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:starlight_steel_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_starlight_steel_pickaxe.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_starlight_steel_pickaxe.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_starlight_steel_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:starlight_steel_pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}

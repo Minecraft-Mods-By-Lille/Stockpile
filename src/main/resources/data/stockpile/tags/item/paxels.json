@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "stockpile:bone_paxel",
+    "stockpile:hardened_clay_paxel",
+    "stockpile:crystal_glass_paxel",
+    "stockpile:copper_paxel",
+    "stockpile:obsidian_alloy_paxel",
+    "stockpile:adamantine_paxel",
+    "stockpile:voidsteel_paxel",
+    "stockpile:starlight_steel_paxel",
+    "stockpile:dragonsteel_paxel"
+  ]
+}

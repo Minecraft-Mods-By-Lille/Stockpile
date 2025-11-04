@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "name": "end_city_stockpile",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_sword",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_axe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_shovel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_spear",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_shears",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_paxel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "stockpile:adamantine_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

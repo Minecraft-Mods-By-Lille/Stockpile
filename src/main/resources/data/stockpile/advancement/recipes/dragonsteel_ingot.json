@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "stockpile:dragonsteel_ingot"
+    },
+    "title": {
+      "translate": "advancement.stockpile.dragonsteel_ingot.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.dragonsteel_ingot.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dragonsteel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:dragonsteel_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

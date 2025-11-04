@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "minecraft:clay_ball"
+                      },
+                "/":  {
+                          "item":  "minecraft:stick"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "###",
+                    " / ",
+                    " / "
+                ],
+    "result":  {
+                   "id":  "stockpile:hardened_clay_pickaxe",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

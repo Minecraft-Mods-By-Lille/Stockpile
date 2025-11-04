@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/voidsteel_pickaxe"
+                 },
+    "parent":  "minecraft:item/handheld"
+}

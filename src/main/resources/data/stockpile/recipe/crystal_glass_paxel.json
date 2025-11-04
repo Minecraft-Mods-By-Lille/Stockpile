@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "APS",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "A": {
+      "item": "stockpile:crystal_glass_axe"
+    },
+    "P": {
+      "item": "stockpile:crystal_glass_pickaxe"
+    },
+    "S": {
+      "item": "stockpile:crystal_glass_shovel"
+    },
+    "R": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "stockpile:crystal_glass_paxel",
+    "count": 1
+  }
+}

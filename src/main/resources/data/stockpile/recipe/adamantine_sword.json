@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "stockpile:adamantine_ingot"
+                      },
+                "/":  {
+                          "item":  "minecraft:stick"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "#",
+                    "#",
+                    "/"
+                ],
+    "result":  {
+                   "id":  "stockpile:adamantine_sword",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

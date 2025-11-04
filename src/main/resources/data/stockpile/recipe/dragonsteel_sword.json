@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "stockpile:dragonsteel_ingot"
+                      },
+                "/":  {
+                          "item":  "minecraft:stick"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "#",
+                    "#",
+                    "/"
+                ],
+    "result":  {
+                   "id":  "stockpile:dragonsteel_sword",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -1,0 +1,30 @@
+﻿{
+  "parent": "stockpile:recipes/voidsteel_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:voidsteel_axe"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_voidsteel_axe.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_voidsteel_axe.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_voidsteel_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:voidsteel_axe"
+          }
+        ]
+      }
+    }
+  }
+}

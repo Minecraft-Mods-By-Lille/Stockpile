@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "minecraft:glass_pane"
+                      },
+                "/":  {
+                          "item":  "minecraft:stick"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "#",
+                    "/",
+                    "/"
+                ],
+    "result":  {
+                   "id":  "stockpile:crystal_glass_spear",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

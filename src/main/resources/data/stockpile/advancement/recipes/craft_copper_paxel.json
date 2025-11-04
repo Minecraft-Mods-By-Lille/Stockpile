@@ -1,0 +1,30 @@
+﻿{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "stockpile:copper_paxel"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_copper_paxel.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_copper_paxel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_copper_paxel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:copper_paxel"
+          }
+        ]
+      }
+    }
+  }
+}

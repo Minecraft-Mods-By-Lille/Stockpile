@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/starlight_steel_spear"
+                 },
+    "parent":  "minecraft:item/handheld"
+}

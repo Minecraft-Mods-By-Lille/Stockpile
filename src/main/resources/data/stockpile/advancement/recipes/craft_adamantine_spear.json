@@ -1,0 +1,30 @@
+﻿{
+  "parent": "stockpile:recipes/adamantine_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:adamantine_spear"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_adamantine_spear.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_adamantine_spear.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_adamantine_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:adamantine_spear"
+          }
+        ]
+      }
+    }
+  }
+}

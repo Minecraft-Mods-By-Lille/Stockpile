@@ -1,0 +1,17 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "stockpile:starlight_steel_ingot"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    " #",
+                    "# "
+                ],
+    "result":  {
+                   "id":  "stockpile:starlight_steel_shears",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

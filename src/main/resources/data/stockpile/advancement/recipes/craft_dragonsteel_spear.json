@@ -1,0 +1,30 @@
+﻿{
+  "parent": "stockpile:recipes/dragonsteel_ingot",
+  "display": {
+    "icon": {
+      "id": "stockpile:dragonsteel_spear"
+    },
+    "title": {
+      "translate": "advancement.stockpile.craft_dragonsteel_spear.title"
+    },
+    "description": {
+      "translate": "advancement.stockpile.craft_dragonsteel_spear.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dragonsteel_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stockpile:dragonsteel_spear"
+          }
+        ]
+      }
+    }
+  }
+}

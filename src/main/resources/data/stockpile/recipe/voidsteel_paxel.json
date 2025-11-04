@@ -1,0 +1,27 @@
+{
+    "key":  {
+                "S":  {
+                          "item":  "stockpile:voidsteel_shovel"
+                      },
+                "P":  {
+                          "item":  "stockpile:voidsteel_pickaxe"
+                      },
+                "A":  {
+                          "item":  "stockpile:voidsteel_axe"
+                      },
+                "R":  {
+                          "tag":  "c:rods/wooden"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "APS",
+                    " R ",
+                    " R "
+                ],
+    "result":  {
+                   "id":  "stockpile:voidsteel_paxel",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

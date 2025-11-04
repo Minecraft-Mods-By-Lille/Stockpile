@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "#":  {
+                          "item":  "minecraft:bone_meal"
+                      },
+                "/":  {
+                          "item":  "minecraft:stick"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "###",
+                    " / ",
+                    " / "
+                ],
+    "result":  {
+                   "id":  "stockpile:bone_pickaxe",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

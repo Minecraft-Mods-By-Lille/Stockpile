@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "stockpile:item/voidsteel_hoe"
+                 },
+    "parent":  "minecraft:item/handheld"
+}
