@@ -6,11 +6,11 @@ license="MIT"
 modId="stockpile"
 version="1.0.0"
 displayName="Stockpile"
-displayURL="https://example.com/stockpile"
+displayURL="https://github.com/Minecraft-Mods-By-Lille/Stockpile"
 logoFile="stockpile.png"
-author="YourNameHere"
+author="Lille"
 description='''
-Stockpile is a Minecraft 1.21.1 NeoForge mod inspired by Silent Gear. It adds weapons and armor for all tiers using only base game materials. Each equipment type (warrior, mage, archer) is crafted from 3 components, supporting a variety of playstyles.
+A Minecraft 1.21.1 NeoForge mod inspired by Silent Gear. Adds a complete 6-tier progression system with 72 tools across 9 material sets using only vanilla materials. Features include bone, hardened clay, crystal glass, copper, obsidian alloy, adamantine, voidsteel, starlight steel, and dragonsteel tiers with complete loot integration and 87 achievements.
 '''
 
 [[dependencies.stockpile]]
